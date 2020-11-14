@@ -1,0 +1,336 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.85, top=1cm, margin=2cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Srinath}
+\familyname{Mandava}
+\title{4th Year CSE Undergraduate, IIT Kharagpur}
+% \address{(omitted for web)}{(omitted for web)}    % optional, remove the line if not wanted
+% \extrainfo{12CD10050} % optional, remove the line if not wanted
+\mobile{(+91-8348664415)}                    % optional, remove the line if not wanted
+\email{srinath9795@gmail.com}                      % optional, remove the line if not wanted
+% \social[github]{ma08}
+%\social[github][github.com/srinath9795]{srinath9795}
+%\social[github][github.com/srinath9795]{srinath9795}
+% %\social[stackoverflow][stackoverflow.com/users/3465519/ma08]{ma08}
+% \homepage{ma08.github.io}                % optional, remove the line if not wanted
+% \extrainfo{\httplink[stackoverflow/srinath9795]{http\://stackoverflow.com/users/2466168/srinath}} % optional, remove the line if not wanted
+% \social[stackexchange][www.stackoverflow.com/users/2466168/srinath]{stackoverflow/srinath9795}
+% \extrainfo{\httplink[github/srinath9795]{github.com/srinath9795}}
+\extrainfo{%
+\httplink[github/srinath9795]{github.com/srinath9795}\\
+\httplink[stackoverflow/maandoo]{stackoverflow.com/users/2466168/srinath}
+}
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{\textbf{2012--2016}}{Computer Science and Engineering (B.Tech)}{IIT Kharagpur}{Kharagpur, West Bengal}{}{}
+\cvline{CGPA:}{\small 8.45/10(by the end of 6th semester)}
+\cventry{\textbf{2010--2012}}{Intermediate}{Sri Chaitanya Junior College}{Vijayawada, Andhra Pradesh}{}{}
+\cvline{Aggregate:}{\small 96.5\%}
+\cventry{\textbf{2010}}{Secondary School}{V.P.Siddhartha Public School}{Vijayawada, Andhra Pradesh}{}{}  % arguments 3 to 6 can be left empty
+\cvline{CGPA:}{\small 10/10}
+
+
+\section{Experience}
+\cventry{\textbf{May,2015 - July,2015}}{Summer Intern}{Microsoft India (R\&D) Pvt. Ltd}{Bangalore, Karnataka}{}{
+\begin{description}
+  % \item[$\bullet$] Full Stack Development of a social Network .
+  \item[$\bullet$] Was a member of \texttt{Bing Ads Team}. Worked on the Click prediction of Display Ads.
+  % \item[$\bullet$] Worked on \texttt{MEAN Stack}, a full stack javascript based framework.
+  \item[$\bullet$] Implemented novel Ad Image Features for the Click Prediction Model of Display Ads.
+  \item[$\bullet$] Used \texttt{Cosmos},Microsoft's internal BigData analysis platform and \texttt{ScopeML} for Machine Learning Models .  
+  % \item[$\bullet$] Users can also create groups, which have their own newsfeed similar to facebook. 
+\end{description}
+}
+\cventry{\textbf{May,2014 - July,2014}}{Summer Intern}{Adwitech Info Systems Pvt Ltd}{Hyderabad, Telangana}{}{
+\begin{description}
+  % \item[$\bullet$] Full Stack Development of a social Network .
+  \item[$\bullet$] Worked on developing a Social Networking web app using \texttt{MEAN Stack}, a full stack javascript based framework.
+  % \item[$\bullet$] Worked on \texttt{MEAN Stack}, a full stack javascript based framework.
+  \item[$\bullet$] Implemented a\texttt{ complete Real Time Newsfeed} package using \texttt{node.js} and \texttt{socket.io} for the backend and \texttt{angular.js} for the frontend.
+  \item[$\bullet$] Users can upload photos, make a status update, share posts, like, comment on the posts.  
+  \item[$\bullet$] Users can also create groups, which have their own newsfeed similar to facebook. 
+\end{description}
+}
+
+
+
+% \cventry{\textbf{2014}}{Secured FIRST Web Design Competition held by BITWISE, CSE Dept. , IIT Kharagpur}{}{
+% \begin{description}
+% \end{description}
+% }
+
+% \bigskip
+% \cventry{\textbf{2012}}{Secured an All India Rank of 283(Open Category) in IIT-JEE out of 600,000 students}{}{
+% \begin{description}
+% \end{description}
+% }
+
+\section{Development Projects}
+% \cventry{May,2014 - July,2014}{Summer Intern}{Adwitech Info Systems Pvt Ltd}{Hyderabad, Telangana}{}{
+% \begin{description}
+%   % \item[$\bullet$] Full Stack Development of a social Network .
+%   \item[$\bullet$] Worked on developing a Social Networking web app using \texttt{MEAN Stack}, a full stack javascript based framework.
+%   % \item[$\bullet$] Worked on \texttt{MEAN Stack}, a full stack javascript based framework.
+%   \item[$\bullet$] Implemented a\texttt{ complete Real Time Newsfeed} package using \texttt{node.js} and \texttt{socket.io} for the backend and \texttt{angular.js} for the frontend.
+%   \item[$\bullet$] Users can upload photos, make a status update, share posts, like, comment on the posts.  
+%   \item[$\bullet$] Users can also create groups, which have their own newsfeed similar to facebook. 
+% \end{description}
+% }
+
+% \cventry{2015}{ChatterBox}{A productive and well organizable chat application}{}{}{
+% \begin{description}
+% \item[$\bullet$] ChatterBox is a websocket based chat application developed using node.js and socket.io for back-end and angular.js for the front-end.
+% \item[$\bullet$] ChatterBox which goes by motto Chat.Organize.Be Productive , mainly targets student community and enterprises to organize their chats for more productive chat experience.
+% % \item[$\bullet$] Secured runners up position for the webapp developed in IBM's Bluemix hackathon.
+% % \item[$\bullet$] Secured Winners up position for the Windows app developed in Microsoft's code.fun.do.
+
+
+% \end{description}
+% }
+
+\cventry{2015}{ChatterBox}{A productive and well organizable chat application}{}{}{
+\begin{description}
+% \item[$\bullet$] Team(of 10) secured bronze medal in the event.
+% \item \textbf{Team: Srinath Mandava, Surya Teja, Sourya Kakarla, Prudhvi Dharmana}
+\item[$\bullet$] ChatterBox is a websocket based chat application developed using node.js and socket.io for back-end and angular.js for the front-end. Developed by a team of size 4.
+\item[$\bullet$] ChatterBox which goes by motto Chat.Organize.Be Productive , mainly targets student community and enterprises to organize their chats for more productive chat experience.
+\item[$\bullet$] Developed a webapp for \textbf{IBM's Bluemix hackathon}. Secured \textbf{2nd place} in the hackathon. 
+\item[$\bullet$] Developed a Windows Store App for \textbf{Microsoft's code.fun.do} at Kharagpur in 24hrs. We were the \textbf{Winners} of the competition.
+\item[$\bullet$] Developed a completely polished app with extra features for the \textbf{code.fun.do Finalist Forum}, which is a competition among all the regional code.fun.do winners. We are 1 of the 5 \textbf{Winning Teams} in India. 
+% \item[$\bullet$] Secured \textbf{Runners up} position for the webapp developed in \textbf{IBM's Bluemix hackathon}.
+% \item[$\bullet$] Secured \textbf{Winners up} position for the Windows app developed in \textbf{Microsoft's code.fun.do}.
+\end{description}
+}
+\cventry{Jan'15}{Jaankari}{}{Opensoft, 3rd Inter IIT Tech Meet}{}{
+\begin{description}
+% \item[$\bullet$] Team(of 10) secured bronze medal in the event.
+\item[$\bullet$] Was primarily responsible for the server side part and crawling data required. Used \texttt{node.js} , \texttt{SQL} for backend and \texttt{Python} for crawling. 
+\item[$\bullet$] An android app to optimize data usage in intermittent network areas and to provide offline search capabilities using wifi peer to peer network.
+\item[$\bullet$] Our Team(of size 8) representing IIT Kharagpur secured \textbf{1st place} among all the IITs in this competition.
+\end{description}
+}
+
+
+\cventry{Mar'15}{Plotit}{Graph Plotter and Calculator}{Inter Hall Opensoft Competition, IIT Kharagpur}{}{
+\begin{description}
+% \item[$\bullet$] Team(of 10) secured bronze medal in the event.
+\item[$\bullet$] Was primarily responsible for implementing equation solver and module for generating 3d and 2d plots. Used \texttt{Mayavi} for 3D plots and \texttt{Sympy's Matplotlib} for 2D plots.
+\item[$\bullet$] Software is used to generate plots for implicit,explicit equations and inequalities for both 2d and 3d.
+\item[$\bullet$] Our Team(of size 10) secured \textbf{4th} in this competition.
+\end{description}
+}
+
+\cventry{Mar'14}{Automated Mosaicing of Torn Paper Documents}{Inter Hall Opensoft Competition}{IIT Kharagpur}{}{
+\begin{description}
+% \item[$\bullet$] Team(of 10) secured bronze medal in the event.
+\item[$\bullet$] Was primarily responsible for the Design and Frontend functionality of the software.
+\item[$\bullet$] Software is used for automatic Mosaicing of torn images using \texttt{openCV} on \texttt{Python} for image processing and \texttt{PyQt} for the GUI.
+\item[$\bullet$] Our Team(of size 10) secured \textbf{BRONZE} in this competition.
+\end{description}
+}
+\cventry{2015}{Chrome Extensions}{}{}{}{
+\begin{description}
+\item[$\bullet$] Developed a chrome extension which helps in taking quick notes in websites like geeksforgeeks,codeforces.\textbf{Link: \httplink[GeeksNote]{goo.gl/AbpEFd}}
+\item[$\bullet$] Developed a chrome extension which adds ratings filter to most of the flipkart search categories and looks native to the website.\textbf{Link: \httplink[Flipkart Ratings Filter]{goo.gl/IBF0Lq}}
+\item[$\bullet$] Developed a chrome extension which enables to flag spam/unwanted comments so that they can be removed instantly and also prevents them from appearing in future. \textbf{Link: \httplink[Facebook Comment Blocker]{goo.gl/hzO9sn}}
+\end{description}
+}
+\cventry{Spring'14}{Web Development and Design Projects}{}{}{}{
+\begin{description}
+\item[$\bullet$] Developed a product launch page for Web Design Contest, Bitwise, Department of Computer Science and Engineering.\textbf{Link: \httplink[bitwise/hackgp]{cse.iitkgp.ac.in/~gsteja/bitwise_web/}}
+\item[$\bullet$] Developed hall website of MS Hall with the design from a template. It also contains an Alumni portal(a social network for the alumns of MS hall). The Alumni portal is based on an open source social network code which was modified accordingly. \textbf{Link: \httplink[www.msites.co.in]{www.msites.co.in}}
+\end{description}
+}
+
+
+\section{Academic Projects}
+\cventry{Mar'15-ongoing}{Automated Tool for Differential Cryptanalysis}{B.Tech Project}{}{}{
+\begin{description}
+  \item[$\bullet$] This projects aims in Identifying the Differentials Paths automarically.
+  \item[$\bullet$] Implementing Impossible Differential attack on AES is a part of the project.
+\end{description}
+}
+\cventry{Aug'15-ongoing}{Detecting Citation Cartels of Scholarly Network}{Social Computing}{}{}{
+\begin{description}
+  \item[$\bullet$] This project aims to detect patterns/characteristers where a group or organisation tends to boost each other's citation count.
+  \item[$\bullet$]  These organisations could be some research groups, journals or conferenes.
+\end{description}
+}
+\cventry{Aug'15-ongoing}{Normalizing Chat \& Identifying Topic of Conversation}{Speech \& Natural Language Processing}{}{}{
+\begin{description}
+  \item[$\bullet$] This project aims to identify the topic of conversation in Social Media, especially Chat.
+  \item[$\bullet$] Normalizing chat implies converting SMS language to English language, such that it helps in Topic Identification. This is done using character n-grams.
+  \item[$\bullet$] Designed and Implemented novel algorithms for predicting the topic of conversation.
+\end{description}
+}
+\cventry{Spring'15}{Student Academic Database}{DBMS}{}{}{
+\begin{description}
+\item[$\bullet$] This was done by a team of size 4. Used \textbf{SQL} for all the database queries.
+\item[$\bullet$] Students can register for courses, view grades. Professors can assign grades, takeup courses.
+\item[$\bullet$] Time Table allocations were done based on graph algorithms.
+\end{description}
+}
+% \cventry{Autumn'15}{Built a \textbf{Compiler} for TinyC}{Compilers}{}{}{
+% \begin{description}
+% \item[$\bullet$] Also allows users to Save diagrams, Edit diagrams, Print diagrams. 
+% \end{description}
+% }
+\cventry{2014}{CASE(Computer Aided Software Engineering) Tool}{Software Engineering Project}{}{}{
+\begin{description}
+\item[$\bullet$] Developed a CASE Tool, a tool used to create(draw) data flow diagrams, modules, hierarchies etc using \texttt{Java} as a part of Software Engineering Course.
+\item[$\bullet$] Using this Tool user can draw Data Flow Diagrams and State Charts by drag and drop. 
+\item[$\bullet$] The software automatically creates and updates Data Dictionary and also checks for Balancing Errors. 
+\item[$\bullet$] Also allows users to Save diagrams, Edit diagrams, Print diagrams. 
+% \item[$\bullet$] Implemented save and load operations for the diagrams using \texttt{Serialization}. 
+\end{description}
+}
+% \cventry{2014}{CASE(Computer Aided Software Engineering) Tool}{Software Engineering Project}{}{}{
+% \begin{description}
+% \item[$\bullet$] The software automatically creates and updates Data Dictionary and also checks for Balancing Errors. 
+% \end{description}
+% }
+
+
+
+% \item[$\bullet$] The software automatically creates and updates Data Dictionary and also checks for Balancing Errors . 
+% \item[$\bullet$] Also allows users to Save diagrams, Edit diagrams, Create Hierarchies. 
+% \item[$\bullet$] Implemented save and load operations for the diagrams using \texttt{Serialization}. 
+
+\section{Skills}
+\subsection{Proficient With}
+\cvline{Languages}{\texttt{C, C++, Python, JavaScript, Scope, SQL, HTML, CSS }}
+\cvline{Technologies}{\texttt{AzureML, angular.js, Visual Studio }}
+\subsection{Have Experience With}
+\cvline{Languages}{\texttt{Java, C\# }}
+\cvline{Technologies}{\texttt{MongoDB, node.js, Flex, GNU Bison, Verilog }}
+
+\section{Achievements}
+\cvitem{2015}{\small{\textbf{2nd Runners Up} of \textbf{Flipkart Hackathon} , organised at IIT Kharagpur. }}
+\cvitem{2015}{\small{One of the top 5 \textbf{Winning Teams} of \textbf{Microsoft code.fun.do Finalist Forum} in India. }}
+\cvitem{2015}{\small{\textbf{Winners} of \textbf{Microsoft code.fun.do} , organised at IIT Kharagpur. }}
+\cvitem{2015}{\small{Member of \textbf{GOLD} winning Opensoft team, representing IIT Kharagpur in \textbf{3rd Inter IIT Tech} }}
+\cvitem{2015}{\small{\textbf{Runners} of \textbf{Bluemix Hackathon} by \textbf{IBM} , organised at IIT Kharagpur. }}
+% \cvitem{2014}{\small{Secured \textbf{FIRST} in Web Design Competition conducted by Bitwise,IIT Kharagpur}}
+\cvitem{2014}{\small{Our team(of size 10) secured \textbf{BRONZE} in \textbf{Opensoft} Competition held by Gymkhana,IIT Kharagpur }}
+\cvitem{2012}{\small{Secured an \textbf{All India Rank} of \textbf{283} in \textbf{IIT-JEE 2012} among 500,000 students}}
+\cvitem{2012}{\small{Secured an \textbf{All India Rank} of \textbf{7} in \textbf{AIEEE, B-Arch} among 100,000 students}}
+\cvitem{2012}{\small{Secured an \textbf{All India Rank} of \textbf{47} in \textbf{AIEEE, B-Tech} among 1,100,000 students}}
+\cvitem{2012}{\small{Scored \textbf{402/450} in \textbf{BITSAT}, admission test for \textbf{Birla Institute of Technology and Science}}}
+\cvitem{2012}{\small{Secured a \textbf{State Rank} of \textbf{85} in \textbf{EAMCET 2012} among 250,000 students}}
+\cvitem{2012}{\small{Stood among the \textbf{top 1\%} students all over India in each \textbf{Indian National Chemistry Olympiad, Indian National Physics Olympiad and Indian National Astronomy Olympiad}}}
+\cvitem{2011}{\small{Selected for \textbf{KVPY Fellowship Award - 2011} }}
+% \cvitem{2010}{\small{Received an Merit Certificate in 10th CBSE Board Exams for securing a CGPA of 10/10}
+\cvitem{2009}{\small{Received \textbf{Bronze Medal} in \textbf{AIMEd Talent Test}, AP for securing \textbf{3rd Position} in Andhra Pradesh }}
+\bigskip
+
+% \bigskip
+% \cventry{2014}{Web Development and Design Projects}{}{}{}{
+% \begin{description}
+% \item[$\bullet$] Designed a product launch page for Web Design Contest, Bitwise, Department of Computer Science and Engineering.
+% Link : http://cse.iitkgp.ac.in/~gsteja/bitwise_web/. 
+% \item[$\bullet$] Developed my hall website with the design from an opensource. It also contains an Alumni portal(a social network for the alumns of our hall). The Alumni portal is based on an open source social network code which was modified accordingly. Link: www.msites.in  
+% \end{description}
+% }
+
+\section{Positions of Responsibility}
+\cventry{Aug,2014 - Mar,2015}{Vice Captain}{MS Hall Opensoft Team}{IIT Kharagpur}{}{
+\begin{description}
+  \item[$\bullet$] Responsible for leading the Opensoft team of Meghnad Saha Hall in the Tech General Championship.
+\end{description}
+}
+\cventry{Oct,2012 - Feb,2013}{GES Intern}{Entrepreneurship Cell}{IIT Kharagpur}{}{
+\begin{description}
+  \item[$\bullet$] Responsible for the publicity of Global Entrepreneurship Summit-13 in and around Vijayawada.
+  \item[$\bullet$] Involved in various pre-fest activities. 
+\end{description}
+}
+% \bigskip
+\cventry{Sep,2013 - Apr,2013}{Web Secretary}{Meghnad Saha Hall of Residence}{IIT Kharagpur}{}{
+\begin{description}
+  \item[$\bullet$] Responsible for the development and management of MS Hall website and MS Hall Mess Portal.
+\end{description}
+}
+
+\bigskip
+
+
+\section{Relevant Coursework}
+\cvline{First Year}{Programming and Data Structures}
+\cvline{Third Sem}{Algorithms-1, Discrete Structures, Introduction to Electronics, Signals and Systems}
+\cvline{Fourth Sem}{Switching Circuits, Probability and Statistics, Formal Languages and Automata Theory}
+\cvline{Fifth Sem}{Compilers, Computer Organization and Architecture, Algorithms-2}
+\cvline{Sixth Sem}{Operating Systems, Computer Networks, Database Management Systems}
+\cvline{Seventh Sem}{Natural Language Prcessing, Social Computing, Theory of Computation, Machine Learning, Artificial Intelligence}
+
+
+% \section{Extra Circular Activities}
+% \cvlistitem{Member of MMM hockey Team in my First Year}
+% \cvlistitem{Member of School Cricket Team in my 10th class}
+
+
+% \section{Statement of Purpose}
+% Being a fast learner and versatile are vital to participate in Opensoft. I find these qualities in me.I am a passionate programmer and I love solving puzzles and problems. I have good development  experience in C++ , Python , Java and Javascript.  I developed the complete website for Meaghnad Saha Hall. I was part of the Open Soft team of Meghnad Saha Hall of Residence for the Inter Hall Open Soft Competition 2014 and we  secured \textbf{BRONZE} in the event. Right now I am the Vice-Captain of Open Soft team of Meghnad Saha Hall of Residence. 
+
+
+
+% Opensoft is a competition where you not only solve the given problem but you should also be able to  develop a software that is visually attractive. Design and UI matters a lot in developing a software. I am good with both backend and frontend development. I worked as a FULLSTACK DEVELOPER in a startup for my Second Year Internship. I along with 2 others were asked to develop a complete Social Networking Site which mainly comprises of Newsfeed,Chat,MailBox using Meanstack.I was responsible for developing the Newsfeed Service similar to facebook and LinkedIN. Inspite of not being familiar with the prescribed tools, I got myself acquainted with Angular, Node.js  in a short span of time and completed the whole Social Networking Site in 45days.
+
+% The above qualities helped me in achieving an \textbf{Internship at Microsoft IDC, Hyderabad for 2015 Summer} and prove that I can be a valuable member to the Opensoft team
+
+% \section{Activities}
+% \cventry{2013--2014}{Football Team}{M.S.Hall}{IIT Kharagpur}{}{
+% Member of Gold Winning Team , M.S.Hall in the Sports General Championship.
+% }
+
+% \cventry{2012--2013}{Member, KGPian Game Theory Society}{IIT Kharagpur}{}{}{
+% Studied various aspects of Game Theory and its applications
+% A society to discuss the ideas of Game Theory, h
+% \begin{description}
+%   \item[$\bullet$] Published an article on  \texttt{Burning Bridges in the Football Transfer Market} in  \texttt{The Strategist}, the magazine of the society.
+%   \item[$\bullet$] Organized an event, \texttt{War of Wits} in IIT Kharagpur. Came up with the idea of the \texttt{Centipede Game} which hugely contributed to the success of the event.
+% \end{description}
+% }
+% \cventry{2008--2010}{Football Team}{V.P.S Public School}{}{}{
+% Part of school team in 9th and 10th class. Took in part in an Interschool Tournament and reached the semifinals.
+% }
+
+%\cventry{}{Other Current Hobbies}{}{}{}{
+%Web Programming, Camping, Hiking, Backpacking, Traveling, Road Trips, Basketball, Piano, Guitar
+%}
+
+\end{document}

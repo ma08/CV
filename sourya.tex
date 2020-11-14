@@ -1,0 +1,274 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.85,top=1cm, margin=2cm]{geometry}
+
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+%\usepackage{hyperref}
+%\hypersetup{
+    %colorlinks=true,
+    %linkcolor=blue,
+    %filecolor=magenta,      
+    %urlcolor=cyan
+%}
+%\renewcommand*{\namefont}{\fontsize{42}{40}\mdseries\upshape}
+% personal data
+\firstname{Sourya}
+\familyname{Kakarla}
+\title{}           
+\address{39-10-11, Veterinary Hospital Street, Labbipet, Vijayawada}{Andhra Pradesh}    % optional, remove the line if not wanted
+\mobile{(+919493250901)}                    % optional, remove the line if not wanted
+\email{sourya4@gmail.com}                      % optional, remove the line if not wanted
+\social[github]{ma08}
+%\social[stackoverflow][stackoverflow.com/users/3465519/ma08]{ma08}
+\homepage{ma08.github.io}                % optional, remove the line if not wanted
+\extrainfo{\httplink[stackoverflow/ma08]{stackoverflow.com/users/3465519/ma08}} % optional, remove the line if not wanted
+
+%\renewcommand\cventry[6]{\cventry{#1}{#2}{#3}{#4}{#5}{\fontsize{12}{15}\selectfont#6 }}
+\renewcommand*\titlefont{\fontsize{15}{24}\selectfont}
+\newcommand\Mycvline[2]{%
+\cvline{#1}{\selectfont \fontfamily{\sfdefault}\fontsize{12}{15}\selectfont#2 }}
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\vspace*{-2\baselineskip}
+\maketitle
+\vspace*{-1.5\baselineskip}
+%\vspace*{-8mm}
+\pagestyle{empty}
+
+
+\section{Education}
+\cventry{\textbf{2020--}}{PhD, Crypto Research Lab, Computer Science}{}{IIT Kharagpur, W.B}{}{}
+%\cvline{CGPA:}{\small 8.67/10}
+\cventry{\textbf{2012--2017}}{Computer Science and Engineering (B.Tech-M.Tech)}{}{IIT Kharagpur, W.B}{}{}
+\cvline{CGPA:}{\small 8.67/10}
+\cventry{\textbf{2010--2012}}{Intermediate}{}{Sri Chaitanya Junior College, Hyderabad, Telangana}{}{}
+\cvline{Aggregate:}{\small 94.7\%}
+\cventry{\textbf{2010}}{Secondary School}{}{V.P.S Public School, Vijayawada, Andhra Pradesh}{}{}  % arguments 3 to 6 can be left empty
+\cvline{CGPA:}{\small 10/10 (CBSE)}
+
+\section{Experience}
+\cventry{Oct,2019 - Present}{Junior Research Fellow}{}{IIT Kharagpur}{}{
+\begin{description}
+  \item[$\bullet$] Working on the project Cryptanalysis of Cryptographic Ciphers with Emphasis on AES and RSA. Sponsoring Agency: Meity, Govt. of India
+\end{description}
+}
+\cventry{July,2017 - Sep,2019}{Software Engineer}{}{Microsoft India(R\&D) Pvt. Ltd, Hyderabad, Telangana}{}{
+\begin{description}
+  \item[$\bullet$] Worked as backend developer.
+  \item[$\bullet$] Worked on Azure Service Fabric to develop and maintain different services.
+\end{description}
+}
+\cventry{May,2015 - July,2015}{Intern}{}{Microsoft India(R\&D) Pvt. Ltd, Hyderabad, Telangana}{}{
+\begin{description}
+  \item[$\bullet$] Worked on building an Android app.
+  \item[$\bullet$] Implemented the complete backend on .NET using various services of Microsoft Azure.
+\end{description}
+}
+
+%\bigskip
+\cventry{May,2014 - July,2014}{Intern}{}{Advitech Infotech Pvt. Ltd, Hyderabad, Telangana}{}{
+\begin{description}
+  \item[$\bullet$] Worked on MEAN Stack to develop a social webapp for professionals.
+  \item[$\bullet$] Primarily worked on the server side using  node.js and mongoDB.
+  %\item[$\bullet$] Implemented the connections part,  user groups and admin policy for groups, persistent and real time notifications. Worked on both frontend and backend.
+\end{description}
+}
+%\bigskip
+\section{Award Winning Projects}
+\cventry{2014-2015}{ChatterBox}{Multiple Hackathons by IBM, Flipkart, and Microsoft}{}{}{
+\begin{description}
+\item[$\bullet$] Built a Windows Store app for Microsoft's Code.Fun.Do 2014 hackathon. Secured \textbf{1st place} in the Kharagpur competition. Secured a position in the \textbf{top 5 (Winners)} teams in the final stage of the competition which was conducted nationwide.
+\item[$\bullet$] Built a web application using node.js, mongoDB and Angular for GES Hackathon organized by IBM\@. Secured \textbf{2nd place} in the hackathon.
+\item[$\bullet$] Built a topic recognition utility over chat using reddit data. Secured \textbf{winning position} in hackathon organized by Flipkart in 2015.
+\item[$\bullet$] Built a Chrome extension for facebook chat for Microsoft's Code.Fun.Do 2015 hackathon. Secured \textbf{1st place} in the Kharagpur competition. 
+\item[$\bullet$] A chat organizing application which makes navigating/accessing chat history easier by indexing and providing various other utilities. Developed by a team of 4.
+\end{description}
+}
+
+\section{Academic Projects}
+\cventry{Mar,2015-May,2017}{Thesis Project - Cryptanalysis of AES and AES based ciphers}{}{}{}{
+\begin{description}
+\item[$\bullet$] Studied and implemented 5-round attack on AES-128 using Impossible Differential cryptanalysis.
+\item[$\bullet$] Extended 5-round attack to AES-256 and a partial attack on 6-round AES-256.
+\item[$\bullet$] Developed and implemented methods to reduce the RAM usage from 4 TB to 176 GB.
+\item[$\bullet$] Proposed and implemented meet-in-the-middle attack on reduced round PAEQ, a 2nd round candidate in the CAESAR competition for Authenticated Encryption schemes.
+\end{description}
+}
+
+\cventry{Aug 15}{Normalizing Chat \& Identifying Topic of Conversation}{Natural Language Processing}{}{}{
+\begin{description}
+  \item[$\bullet$] This project aims to identify the topic of conversation in Social Media, especially Chat.
+  %\item[$\bullet$] It involves normalizing the chat text to a standard format and then classifying the chat conversation to a particular topic.
+  \item[$\bullet$] Worked on heuristic algorithms for predicting the topic of conversation.
+\end{description}
+}
+
+
+%\cventry{2014}{Automated Restoration of Torn Documents}{}{Opensoft, IIT Kharagpur}{}{
+%\begin{description}
+%\item[$\bullet$] Team(of 7) secured \textbf{bronze medal} in the competition.
+%\item[$\bullet$] Used openCV on Python for image processing.
+%\item[$\bullet$] Was primarily responsible for the GUI - implemented using PyQt - a python wrapper for Qt.
+%\item[$\bullet$] Implemented drag and drop functionality to upload and remove images, implemented animation effects for loading - using PyQt.
+%\item[$\bullet$] Backend -  Implemented a function to calculate Overlapping Area of two polygons using Polygon module.
+%\item[$\bullet$] Github: \httplink{github.com/srinivasans/AutoMosaic}. 
+%\end{description}
+%}
+
+%\cventry{2015}{PlotIt}{}{Opensoft, IIT Kharagpur}{}{
+%\begin{description}
+%\item[$\bullet$] Team(of 10) secured \textbf{4th place} in the competition. 
+%\item[$\bullet$] Developed in python. Used sympy, matplotlib and mayavi for plotting.
+%\item[$\bullet$] Was primarily responsible for integrating sympy and mayavi's plotting interface with the GUI built using PyQt - a python wrapper for Qt.
+%\item[$\bullet$] Implemented plotting explicit, implicit and parametric equations in 2D and 3D.
+%\end{description}
+%}
+%\bigskip
+
+%\bigskip
+%\cventry{2014}{Copy Real Url}{}{A browser extension}{}{
+%\begin{description}
+    %\item[$\bullet$] Google Search results and links(sent/received) in Facebook Chat are redirection urls. This extension is used to copy the actual target urls instead of the redirection urls.
+%\item[$\bullet$] Implemented for Google Chrome and Mozilla Firefox. 
+%\item[$\bullet$] Github: \httplink{github.com/ma08/chrome-link-copy}, \httplink{github.com/ma08/firefox-link-copy}. 
+%\end{description}
+%}
+
+
+
+%\cventry{2014}{CASE(Computer Aided Software Engineering) Tool}{Software Engineering Project}{}{}{
+%\begin{description}
+%\item[$\bullet$] Developed a CASE Tool, a tool used to create(draw) data flow diagrams, modules, hierarchies etc using Java as a part of Software Engineering Course.
+%\item[$\bullet$] Using this Tool user can draw Data Flow Diagrams and State Charts by drag and drop. The software automatically creates and updates Data Dictionary and also checks for Balancing Errors. 
+%%\item[$\bullet$] Also allows users to Save diagrams, Edit diagrams, Print diagrams. 
+%\end{description}
+%}
+
+%\bigskip
+%\cventry{2013}{CASE(Computer Aided Software Engineering) Tool}{}{Software Engineering Project}{}{
+%\begin{description}
+%\item[$\bullet$] Developed using Java for Software Engineering Course by a team of 2. A tool used to create(draw) data flow diagrams, modules, hierarchies etc.
+%\item[$\bullet$] Primarily used the Swing library to create the GUI to create the diagrams. 
+%\item[$\bullet$] Automatic generation of Data Dictionary and checking of Balancing Error. 
+%\item[$\bullet$] Implemented save and load operations for the diagrams using Serialization. 
+%\item[$\bullet$] Github : \httplink{github.com/ma08/CASE}. 
+%\end{description}
+%}
+
+%\bigskip
+
+
+
+\section{Publications}
+%\cventry{July 2017}{On the practical implementation of impossible differential cryptanalysis on reduced-round AES}{}{}{}{
+%\begin{description}
+ %   \item[$\bullet$] First practical implementation of impossible differential attack on 5-round AES.
+%\item[$\bullet$] Published in International Conference on Applications and Techniques in Information Security 2017.
+%\end{description}
+%}
+\cvline{July 2017}{\textbf{Sourya Kakarla}, Srinath Mandava, Dhiman Saha, and Dipanwita Roy Chowdhury. "On the practical implementation of impossible differential cryptanalysis on reduced-round AES." In \textit{International Conference on Applications and Techniques in Information Security, pp. 58-72. Springer, Singapore, 2017. DOI: 10.1007/978-981-10-5421-1\_6}}
+
+\cvline{Aug 2016}{Chakraborty, Abhijnan, Bhargavi Paranjape, \textbf{Sourya Kakarla}, and Niloy Ganguly. "Stop clickbait: Detecting and preventing clickbaits in online news media." In \textit{2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), pp. 9-16. IEEE, 2016. DOI: 10.1109/ASONAM.2016.7752207}}
+
+\cvline{Sep 2020}{Aahan Dhabolkar, \textbf{Sourya Kakarla}, Dhiman Saha. "Looney Tunes: Exposing the Lack of DRM Protectionin Indian Music Streaming Services" Submitted to \textit{EuroSys 2021}}
+
+\cvline{Dec 2018}{Saha, Dhiman, \textbf{Sourya Kakarla}, and Dipanwita Roy Chowdhury. "Dinamite: internal differential match-in-the-end attack on eight-round PAEQ." \textit{IET Information Security 13, no. 4 (2018): 378-388.  DOI: 10.1049/iet-ifs.2018.5033 }}
+
+\cvline{Sep 2017}{Saha, Dhiman, \textbf{Sourya Kakarla}, Srinath Mandava, and Dipanwita Roy Chowdhury. "Gain: practical key-recovery attacks on round-reduced PAEQ." \textit{Journal of Hardware and Systems Security 1, no. 3 (2017): 282-296. DOI: 10.1007/s41635-017-0010-5}}
+
+\cvline{Dec 2016}{Saha, Dhiman, \textbf{Sourya Kakarla}, Srinath Mandava, and Dipanwita Roy Chowdhury. "Gain: practical key-recovery attacks on round-reduced PAEQ." In \textit{International Conference on Security, Privacy, and Applied Cryptography Engineering, pp. 194-210. Springer, Cham, 2016. DOI: 10.1007/978-3-319-49445-6\_11}}
+
+
+
+%\cventry{Aug 2016}{Stop clickbait: Detecting and preventing clickbaits in online news media}{}{}{}{
+%\begin{description}
+    %\item[$\bullet$] Developed the %\href{https://chrome.google.com/webstore/detail/stop-clickbait/iffolfpdcmehbghbamkgobjjdeejinma}{chrome extension} to identify clickbait articles linked across different websites and set up the server using Flask and nginx on AWS.
+%\item[$\bullet$] Won the best student paper award at the conference IEEE/ACM ASONAM 2016.
+%\end{description}
+%}
+
+
+
+\section{Technical Experience}
+\subsection{Have Experience With}
+\cvline{languages}{C, C++, C\#, Python, Java, JavaScript, Bash}
+\cvline{technologies}{.NET, node.js, Flask, Angular, mongoDB, Microsoft Azure Service Fabric, SQL, OpenMP, \LaTeX, GNU Assembler, Verilog, Flex, Docker, Android Studio, i3 Window Manager}
+%\section{Relevant Coursework}
+
+%\cvline{Third Sem}{Algorithms-1, Discrete Structures, Introduction to Electronics, Signals and Systems}
+%\cvline{Fourth Sem}{Switching Circuits, Probability and Statistics, Formal Languages and Automata Theory}
+%\cvline{Fifth Sem}{Compilers, Computer Organization and Architecture, Algorithms-2}
+%\cvline{Sixth Sem}{Operating Systems, Computer Networks, Database Management Systems}
+%\cvline{Seventh Sem}{Natural Language Processing, Social Computing, Theory of Computation, Machine Learning, Artificial Intelligence}
+%\cvline{Eighth Sem}{Foundations of Cryptography, High Performance Computer Architecture, Computational Geometry}
+%\cvline{Ninth Sem}{Cryptography and Network Security, Parallel and Distributed Algorithms, Selected Topics in Algorithms}
+
+
+
+\section{Activities}
+\cventry{2013--2017}{Member, Football Team}{M.S.Hall}{IIT Kharagpur}{}{
+\item[$\bullet$] Member of Gold Winning Team, M.S.Hall in the Sports General Championship '14.
+}
+\cventry{2013--2017}{Member, Opensoft Team}{M.S.Hall}{IIT Kharagpur}{}{
+\begin{description}
+ 	\item[$\bullet$]   Captained the team in the academic year 2015-2016.
+ 	\item[$\bullet$]   Member of Bronze Winning Team, M.S.Hall in the Tech General Championship '14.
+ 	\item[$\bullet$]   Member of Bronze Winning Team, M.S.Hall in the Tech General Championship '17.
+\end{description}
+}
+\cventry{2012--2013}{Member, KGPian Game Theory Society}{IIT Kharagpur}{}{}{
+\begin{description}
+%\item[$\bullet$] Studied various aspects of Game Theory and its applications.
+	\item[$\bullet$] Published an article on  Burning Bridges in the Football Transfer Market in  The Strategist, the magazine of the society.
+\end{description}
+}
+\cventry{2018--}{Author, Poetry Blog }{\url{www.instagram.com/sourya4}}{}{}{}
+\cventry{2019--}{Memeber, Chedis To Medley }{An amateur music band based out of IIT KGP insti}{}{}{}
+\cventry{2020--}{Completed Inner Engineering offered by Sadhguru, Isha Foundation}{\url{https://www.innerengineering.com/}}{}{}{}
+
+%\section{References}
+%\cventry{}{Prof. Dipanwita Roy Chowdhury}{CSE Dept, IIT Kharagpur}{}{}{
+%Email: drc@cse.iitkgp.ernet.in
+%Phone: 9434016982
+%}
+%Studied various aspects of Game Theory and its applications.
+%\cvline{}{, CSE Dept. IIT Kharagpur.  }
+%\cventry{2008--2010}{Football Team}{V.P.S Public School}{}{}{
+%Part of school team in 9th and 10th class. Took part in an Interschool Tournament and reached the semifinals.
+%}
+
+%\cventry{}{Other Current Hobbies}{}{}{}{
+%Web Programming, Camping, Hiking, Backpacking, Traveling, Road Trips, Basketball, Piano, Guitar
+%}
+
+\end{document}
